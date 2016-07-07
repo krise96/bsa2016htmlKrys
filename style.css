@@ -1,0 +1,146 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+       color: white;
+}
+
+#page{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    border: 1px solid black;
+    
+}
+#head{
+    overflow: hidden;
+    height: 100px;
+    background: green;
+    text-align: center;
+}
+#head img{
+    height: 100%;
+    float: left;
+}
+#head p{
+     line-height: 70px;
+     letter-spacing: 7px;
+  
+}
+#head p:hover{
+    color: black;
+}
+#content{
+    position: relative;
+    overflow:hidden;
+}
+#menu{
+    position: absolute;
+    float: left;
+    width: 200px;
+    top: 0;
+    bottom: 0;
+    background: red;
+}
+
+#first{
+    text-align: center;
+    padding-left: 200px;
+    border-bottom: 1px solid black;
+    height: 500px;
+    overflow-x:hidden;
+}
+
+#first div:nth-child(3){
+	border-top-right-radius: 50px;
+}
+
+#second{
+    text-align: center;
+    
+    padding-left: 200px;
+    padding-top: 80px;
+    height: 240px;
+    
+    border-bottom: 1px solid black;
+    overflow-x:hidden;
+
+}
+
+.box1{
+    width: 200px;
+    height: 130px;
+    margin: 10px;
+    line-height: 130px;
+    margin-top:20px;
+    background: tomato;
+    display: inline-block;
+    
+}
+
+.box1:hover,.box2:hover,.box3:hover{
+     background: burlywood;
+     color: darkcyan;
+}
+
+.box2{
+    width: 30%;
+    height: 150px;
+    margin: 10px;
+    line-height: 150px;
+    background: tomato;
+    display: inline-block;
+}
+
+#futter{
+
+    width: 100%;
+    height: 150px;
+}
+
+#fCont{
+    height: 75px;
+    background: black;
+    overflow-y:hidden;
+    display: flex;
+}
+
+.box3{
+    flex: 1;
+    height: 100%;
+    line-height: 75px;
+    background: tomato;
+    float: left;
+    text-align: center;
+    border-right: 2px solid black;
+}
+
+#sCont{
+    color: black;
+    text-align: center;
+    line-height: 75px;
+}
+
+#navbar {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#navbar a {
+    background-color: tomato;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    border-left: 5px solid #949494;
+    border-bottom: 1px solid black;
+    display: block;
+}
+#navbar a:hover{
+     background-color: green ;
+}
+
+#navbar li {
+    width: 100%;
+
+}
